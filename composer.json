@@ -1,0 +1,32 @@
+{
+    "name": "nhockizi/yii2-helper",
+    "description": "Helper for Yii2",
+    "type": "yii2-helper",
+    "keywords": ["yii2","helper","nhockizi"],
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/nhockizi/yii2-helper/issues?state=open",
+        "source": "https://github.com/nhockizi/yii2-helper"
+    },
+    "authors": [
+        {
+            "name": "Lâm Xuân Bảo",
+            "email": "nhockizi@gmail.com",
+            "country": "Viet Nam"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2":"*"
+    },
+    "autoload": {
+        "psr-4": {
+            "nhockizi\\helper\\": ""
+        }
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
+    }
+}
